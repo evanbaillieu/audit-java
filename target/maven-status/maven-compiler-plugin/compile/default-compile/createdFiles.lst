@@ -1,0 +1,4 @@
+fr\snowsdy\app\service\BeerService.class
+fr\snowsdy\app\LaunchApp.class
+fr\snowsdy\app\entity\Beer.class
+fr\snowsdy\app\bean\BeerBean.class
