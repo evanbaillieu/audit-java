@@ -26,7 +26,7 @@ public class Modele implements Serializable {
 
     private boolean obsolete;
 
-    public Modele() {
+    public Modele(Champ champ, Image image) {
     }
 
     public Modele(String type, List<Section> sections, int niveau) {

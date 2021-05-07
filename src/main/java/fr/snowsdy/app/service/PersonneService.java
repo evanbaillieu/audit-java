@@ -28,13 +28,13 @@ public abstract class PersonneService implements Serializable {
     }
 
 
-    @GetMapping("/id")
+    @GetMapping("/Personneid")
     public Optional<Personne> getById(@RequestParam(value = "id", defaultValue = "0") Optional<Long> id) {
         return personneServiceImpl.getById(id) ;
     }
 
 
-    @GetMapping("/addPersonne")
+    @GetMapping("/Personneadd")
     public Personne getPersonne(@RequestParam("nom") String nom,
                                 @RequestParam("prenom") String prenom,
                                 @RequestParam("login") String login,
